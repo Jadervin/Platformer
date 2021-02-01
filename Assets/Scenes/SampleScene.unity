@@ -289,6 +289,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dbccb064fbd848e387bf48f2004ce7aa (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5659460412913430485, guid: 476d09bf35787094fa3bfea47de7b4e0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 339ff52eec12c1349a87164a139e081e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 476d09bf35787094fa3bfea47de7b4e0, type: 3}
 --- !u!1 &142247330
@@ -594,7 +598,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0849a9a277e1e964eb5414beee0080b9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -701,6 +705,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 32d87498feac0894cb755c57044d7d59, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 09b5e26d342efd34b937deee7b7f800d, type: 2}
     - target: {fileID: 919132149155446097, guid: 32d87498feac0894cb755c57044d7d59, type: 3}
       propertyPath: m_Name
       value: spikes (1)
@@ -917,7 +925,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d6ce6cc31abbca04abe2d6d9f95a3c6b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1029,6 +1037,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: -1978072882336536754, guid: 9f761c0967edd2348b3120a77d365ee1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fdb61ac8d2572e34da0a0288a14c069c, type: 2}
     - target: {fileID: 919132149155446097, guid: 9f761c0967edd2348b3120a77d365ee1, type: 3}
       propertyPath: m_Name
       value: Pipe
@@ -1121,7 +1133,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 602457b33d188ff41a485236fc348c24, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1291,6 +1303,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5247485494737575415, guid: d09a4a834577c144eb9442c0ff04b442, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e8e1a3ec732a7a047b8202e8fcc669ae, type: 2}
     - target: {fileID: 919132149155446097, guid: d09a4a834577c144eb9442c0ff04b442, type: 3}
       propertyPath: m_Name
       value: 'Rigged_Robot_Ant '
@@ -1461,6 +1477,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dbccb064fbd848e387bf48f2004ce7aa
       objectReference: {fileID: 0}
+    - target: {fileID: 5659460412913430485, guid: 476d09bf35787094fa3bfea47de7b4e0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 339ff52eec12c1349a87164a139e081e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 476d09bf35787094fa3bfea47de7b4e0, type: 3}
 --- !u!1 &914013558 stripped
@@ -1725,6 +1745,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 32d87498feac0894cb755c57044d7d59, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 09b5e26d342efd34b937deee7b7f800d, type: 2}
     - target: {fileID: 919132149155446097, guid: 32d87498feac0894cb755c57044d7d59, type: 3}
       propertyPath: m_Name
       value: spikes (2)
@@ -1870,7 +1894,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d6ce6cc31abbca04abe2d6d9f95a3c6b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1963,6 +1987,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5247485494737575415, guid: d09a4a834577c144eb9442c0ff04b442, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e8e1a3ec732a7a047b8202e8fcc669ae, type: 2}
     - target: {fileID: 919132149155446097, guid: d09a4a834577c144eb9442c0ff04b442, type: 3}
       propertyPath: m_Name
       value: Rigged_Robot_Ant  (1)
@@ -2121,7 +2149,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 602457b33d188ff41a485236fc348c24, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2230,6 +2258,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5247485494737575415, guid: d09a4a834577c144eb9442c0ff04b442, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e8e1a3ec732a7a047b8202e8fcc669ae, type: 2}
     - target: {fileID: 919132149155446097, guid: d09a4a834577c144eb9442c0ff04b442, type: 3}
       propertyPath: m_Name
       value: Rigged_Robot_Ant  (2)
@@ -2411,6 +2443,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 32d87498feac0894cb755c57044d7d59, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 09b5e26d342efd34b937deee7b7f800d, type: 2}
     - target: {fileID: 919132149155446097, guid: 32d87498feac0894cb755c57044d7d59, type: 3}
       propertyPath: m_Name
       value: spikes
@@ -2559,8 +2595,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852709473}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: -0.7071068}
-  m_LocalPosition: {x: -3.637741, y: -3.571869, z: 12.062485}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -3.637741, y: -3.571869, z: 12.161}
+  m_LocalScale: {x: 1.0000005, y: 1, z: 0.9802967}
   m_Children: []
   m_Father: {fileID: 145588725}
   m_RootOrder: 0
@@ -2598,7 +2634,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 602457b33d188ff41a485236fc348c24, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2709,7 +2745,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d6ce6cc31abbca04abe2d6d9f95a3c6b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2828,7 +2864,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d6ce6cc31abbca04abe2d6d9f95a3c6b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2930,6 +2966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dbccb064fbd848e387bf48f2004ce7aa (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5659460412913430485, guid: 476d09bf35787094fa3bfea47de7b4e0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 339ff52eec12c1349a87164a139e081e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 476d09bf35787094fa3bfea47de7b4e0, type: 3}
 --- !u!1 &2113036610 stripped
