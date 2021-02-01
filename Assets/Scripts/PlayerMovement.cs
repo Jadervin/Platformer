@@ -11,9 +11,10 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 movement = new Vector2(1, 1);
     [SerializeField]
     public GameObject Player;
-
+    public Rigidbody rb;
+    public bool PlayerGround = true;
     public string movementAxis = "Horizontal";
-    public string jumpAxis = "Jump";
+   
 
     // Start is called before the first frame update
     void Start()
@@ -28,13 +29,19 @@ public class PlayerMovement : MonoBehaviour
 
         Player.transform.Translate(new Vector2(axis * Speed * Time.deltaTime, 0));
 
-        float jumping = Input.GetAxis(jumpAxis);
+        if(Input.GetButtonDown("Jump") && PlayerGround)
+        {
 
-        Player.transform.Translate(new Vector2(0, jumping * 260 * Time.deltaTime));
+            rb.AddForce(new Vector3(0, 10, 0), ForceMode.Impulse);
+            PlayerGround = false;
+        }
 
     }
-    private void FixedUpdate()
+    private void OnCollisionEnter(Collision collision)
     {
-        
+        if(collision.gameObject.tag == "Floor")
+        {
+            PlayerGround = true;
+        }
     }
 }
