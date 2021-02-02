@@ -1,0 +1,38 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class MainMenuScript : MonoBehaviour
+{
+
+    public string startSceneName;
+
+
+    public void StartPressed()
+    {
+        SceneManager.LoadScene(startSceneName);
+      
+    
+    
+    }
+
+    public void CloseGame()
+    {
+        Application.Quit();
+
+
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
