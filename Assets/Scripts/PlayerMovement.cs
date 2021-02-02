@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -14,8 +15,12 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody rb;
     public bool PlayerGround = true;
     public string movementAxis = "Horizontal";
-   
+    public string youwin;
 
+
+
+    public Health health;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -39,9 +44,17 @@ public class PlayerMovement : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Floor")
+       
+
+
+
+        if (collision.gameObject.tag == "Floor")
         {
             PlayerGround = true;
+        }
+        if (collision.gameObject.tag == "Win")
+        {
+            SceneManager.LoadScene(youwin);
         }
     }
 }

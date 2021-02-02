@@ -1,32 +1,56 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
-
+    
     public int MaxHP;
     [HideInInspector]
     public int currentHP;
+    public string gameover;
 
-    private void OnTriggerEnter(Collider other)
+
+    public PlayerMovement playerMove;
+
+
+    /*private void OnCollisionEnter(Collision collision)
     {
-        if (other.gameObject.tag == "Damage")
+
+        if (playerMove.PlayerGround == true)
         {
+
             currentHP = currentHP - 1;
-            Destroy(other.gameObject);
+            //Destroy(other.gameObject);
 
         }
 
+    }
+    */
 
+private void OnTriggerEnter(Collider other)
+    {
+       
+
+        if (other.gameObject.tag == "Enemy" )
+        {
+    
+               currentHP = currentHP - 1;
+                Destroy(other.gameObject);
+
+        }
+      
+            
         if (other.gameObject.tag == "Spike")
         {
             currentHP = currentHP - 10;
             
-
+            SceneManager.LoadScene(gameover);
         }
     }
 
+    
     // Start is called before the first frame update
     void Start()
     {

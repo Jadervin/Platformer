@@ -7,6 +7,8 @@ TagManager:
   - Damage
   - Floor
   - Spike
+  - Win
+  - Enemy
   layers:
   - Default
   - TransparentFX
