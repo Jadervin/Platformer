@@ -8,7 +8,7 @@ public class Health : MonoBehaviour
     public int MaxHP;
     [HideInInspector]
     public int currentHP;
-    
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Damage")
@@ -17,8 +17,15 @@ public class Health : MonoBehaviour
             Destroy(other.gameObject);
 
         }
-    }
 
+
+        if (other.gameObject.tag == "Spike")
+        {
+            currentHP = currentHP - 10;
+            
+
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
