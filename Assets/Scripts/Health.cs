@@ -10,24 +10,12 @@ public class Health : MonoBehaviour
     [HideInInspector]
     public int currentHP;
     public string gameover;
-
+    public int NoHP;
 
     public PlayerMovement playerMove;
 
 
-    /*private void OnCollisionEnter(Collision collision)
-    {
-
-        if (playerMove.PlayerGround == true)
-        {
-
-            currentHP = currentHP - 1;
-            //Destroy(other.gameObject);
-
-        }
-
-    }
-    */
+    
 
 private void OnTriggerEnter(Collider other)
     {
@@ -38,7 +26,11 @@ private void OnTriggerEnter(Collider other)
     
                currentHP = currentHP - 1;
                 Destroy(other.gameObject);
+            if (currentHP == NoHP)
+            {
+                SceneManager.LoadScene(gameover);
 
+            }
         }
       
             

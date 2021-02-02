@@ -811,6 +811,7 @@ MonoBehaviour:
   PlayerGround: 1
   movementAxis: Horizontal
   youwin: You Win
+  health: {fileID: 0}
 --- !u!135 &237155276
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -901,10 +902,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHP: 10
   currentHP: 0
-  NoHP: 0
   gameover: GameOver
-  PlayerGround: 1
-  youwin: 
+  NoHP: 0
+  playerMove: {fileID: 0}
 --- !u!114 &237155281
 MonoBehaviour:
   m_ObjectHideFlags: 0
