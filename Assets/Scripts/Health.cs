@@ -10,7 +10,7 @@ public class Health : MonoBehaviour
     [HideInInspector]
     public int currentHP;
     public string gameover;
-    public int NoHP;
+    private int NoHP = 0;
 
     public PlayerMovement playerMove;
 
